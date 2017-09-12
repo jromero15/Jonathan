@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "BalooBhaina";
+  src:url(../fonts/BalooBhaina-Regular.ttf);
+}
+
+.redondeado {
+  border-radius: 5px;
+}
+
+.redondeado-izq {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.redondeado-der {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.redondeado-arr {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.redondeado-aba {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sin-redondeado {
+  border-radius: 0px;
+}
+
+.sombraSimple {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+hr{
+  border-style: none;
+}
+
+hr[class="punteado"]{
+  border-style: dashed;
+  background:red;
+}
+
+body {
+  background-image: url("../img/img4.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background: #000000;
+  color: white;
+  border-bottom: 3px solid #B27AA0;
+  border-radius: 15px;
+}
+
+.colTituloSlogan {
+  border-right: 2px dashed white;
+  margin: 4px;
+}
+
+.filaTitulo {
+  height: 3rem;
+}
+
+.titulo {
+  font-family: "BalooBhaina";
+  font-size: 3rem;
+  margin: 0;
+  text-align: justify;
+}
+
+.filaSlogan {
+  font-family: "BalooBhaina";
+  height: 1rem;
+  text-align: right;
+}
+
+.filaPrincipal {
+  background: rgba(255,255,255,0.8);
+}
+
+.seccionLateral {
+  border-right: 2px dashed #E80707;
+  margin: 4px;
+}
+
+.filaBusqueda {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+.colIconoBusqueda {
+  background: #2AA30F;
+  padding: 0rem 0.5rem !important;
+  font-size: 1.3rem;
+  height: 100%;
+}
+
+.colCajaBusqueda {
+  height: 100%;
+}
+
+.colCajaBusqueda input {
+  border: 1px solid #448;
+  border-left-style: none !important;
+  height: 100%;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+.subTitulo {
+  margin:0;
+  margin-top: 1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.filaFavoritos {
+  text-align: center;
+  padding: 4%;
+}
+
+.filaFavoritos .column{
+  padding: 0.2rem !important;
+
+}
+
+.filaFavoritos .column img {
+  margin: 0px;
+}
+
+.articulo {
+  margin-top: 2rem !important;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.tituloArticulo {
+  font-family: "BalooBhaina";
+  color:black;
+  margin: 0px !important;
+}
+
+.subTituloArticulo {
+  color:#807C7C;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.fotoArticulo {
+  margin: 1rem 1rem;
+}
+
+.iconoComentario {
+  font-size: 2rem;
+  padding: 0.5rem !important;
+  padding-top: 1.5rem !important;
+  height: 6rem;
+  color:white;
+  background: #0C0CE1;
+}
+
+.textareaComentario {
+  height: 6rem;
+  text-align: justify;
+}
+
+.comentarioUsuario {
+  margin-top: 1rem;
+}
+
+.colAvatarUsuario {
+  background: #19F;
+  border: 2px solid #448;
+  border-right-style: none;
+  padding-top: 8px;
+}
+
+.nombreUsuario {
+  font-family: "BalooBhaina";
+  margin: 0px;
+}
+
+.colTextoComentario {
+  border: 2px solid #448;
+  padding: 0.3rem;
+}
+
+.subTituloReceta {
+  font-family: "BalooBhaina";
+  font-size: 1.2rem;
+  color:brown;
+}
+
+.p {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
